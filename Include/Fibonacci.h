@@ -17,6 +17,7 @@ public:
     int maxIterations = 10;
     void calculate(int start, int next);
     void printList();
+    void clearList();
 
 
 };

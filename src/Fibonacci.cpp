@@ -12,17 +12,22 @@ Fibonacci::Fibonacci() {
 
 void Fibonacci::calculate(int start, int next) {
     this->iterations++;
-    if (this->list->size() != 0) this->list->pop_back();
     this->list->push_back(start);
-    this->list->push_back(next);
-    if (this->iterations <= 10) this->calculate(next, start + next);
+    if (this->iterations <= this->maxIterations) this->calculate(next, start + next);
     this->iterations = 0;
 }
 
 void Fibonacci::printList() {
-    printf("printing list: ");
+    printf("\n\t==============================\n");
+    printf("\tPrinting %d fibonacci numbers \n", this->maxIterations);
+    printf("\t==============================\n\n");
     for (int i = 0; i < this->list->size(); i++){
-        printf("%d\n", this->list.get()[i]);
+        int num = (*this->list)[i];
+        printf("\t\t%d\n", num);
     }
+}
+
+void Fibonacci::clearList() {
+    (*this->list) = {};
 }
 
