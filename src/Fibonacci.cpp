@@ -22,7 +22,7 @@ void Fibonacci::calculate(int start, int next) {
 void Fibonacci::printList() {
     printf("printing list: ");
     for (int i = 0; i < this->list->size(); i++){
-        printf("%d", this->list.get()[i]);
+        printf("%d\n", this->list.get()[i]);
     }
 }
 
