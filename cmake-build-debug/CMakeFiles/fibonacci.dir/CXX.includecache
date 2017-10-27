@@ -6,27 +6,19 @@
 
 #IncludeRegexTransform: 
 
-D:/workspace_local/cpp/fibonacci/Include/Fibonacci.h
+/home/g/workspace/cpp/fibonacci/Include/Fibonacci.h
 vector
 -
 memory
 -
 
-D:/workspace_local/cpp/fibonacci/src/Fibonacci.cpp
+/home/g/workspace/cpp/fibonacci/src/Fibonacci.cpp
 iostream
 -
-string
--
 ../Include/Fibonacci.h
-D:/workspace_local/cpp/fibonacci/Include/Fibonacci.h
+/home/g/workspace/cpp/fibonacci/Include/Fibonacci.h
 
-D:/workspace_local/cpp/fibonacci/src/main.cpp
-iostream
--
-vector
--
-memory
--
+/home/g/workspace/cpp/fibonacci/src/main.cpp
 ../Include/Fibonacci.h
-D:/workspace_local/cpp/fibonacci/Include/Fibonacci.h
+/home/g/workspace/cpp/fibonacci/Include/Fibonacci.h
 
